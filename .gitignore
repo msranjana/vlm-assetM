@@ -1,0 +1,16 @@
+venv/
+.venv/
+
+__pycache__/
+*.pyc
+
+*.mp4
+*.avi
+*.mov
+records/
+
+models/*.gz
+models/*.bin
+models/*.onnx
+models/*.pt
+models/*.pth
