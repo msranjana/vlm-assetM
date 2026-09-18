@@ -1,32 +1,21 @@
 import os
 import time
 
-from dotenv import load_dotenv
-
+from config.env import load_project_env
 from detectors.municipal_asset_detector import MunicipalAssetDetector
-from detectors.person_detector import PersonDetector
-from detectors.vehicle_detector import VehicleDetector
 from engines.alert_engine import AlertEngine
 from engines.event_engine import EventEngine
 from services.annotated_writer import AnnotatedWriter
 from services.detection_wrapper import DetectionWrapper
 from services.rtsp_service import RTSPService
 
-load_dotenv()
+load_project_env()
 
 
 def build_detections():
-    # Targets are nominal: Moondream queries take minutes on CPU, so actual
-    # throughput is inference-bound and excess frames are skipped by design.
-    wrappers = [
-        DetectionWrapper("person_detection", 1, PersonDetector()),
-        DetectionWrapper("vehicle_detection", 1, VehicleDetector()),
+    return [
+        DetectionWrapper("asset_detection", 1, MunicipalAssetDetector()),
     ]
-    if os.getenv("ASSET_DETECTION", "false").lower() == "true":
-        wrappers.append(
-            DetectionWrapper("asset_detection", 1, MunicipalAssetDetector())
-        )
-    return wrappers
 
 
 def default_ann_path(rtsp_url):
@@ -39,7 +28,7 @@ def default_ann_path(rtsp_url):
 
 
 def main():
-    rtsp_url = os.getenv("RTSP_URL", "t4.mp4")
+    rtsp_url = os.getenv("RTSP_URL", "t6.mp4")
     log_file = os.getenv("LOG_FILE_PATH", "logs/events.log")
     reconnect_delay = float(os.getenv("RECONNECT_DELAY", "5"))
     alert_enabled = os.getenv("ALERT_ENABLED", "false").lower() == "true"

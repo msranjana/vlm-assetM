@@ -1,10 +1,12 @@
 import hashlib
 import time
 import cv2
-import moondream
 from PIL import Image
 
-MODEL_PATH = r"models\moondream-0_5b-int4.mf.gz"
+from config.env import load_project_env
+from detectors.moondream_backend import get_model
+
+load_project_env()
 VIDEO_PATH = r"t1.mp4"
 SECONDS_PER_SAMPLE = 30        # run detection every N seconds (lower = more frequent updates)
 AUTO_QUERY = "List the distinct clearly visible objects as a short comma-separated list, e.g.: car, person, dog. No sentences."
@@ -26,9 +28,9 @@ def color_for(cls):
     BOX_COLORS[cls] = color
     return color
 
-print("Loading Moondream 0.5B...")
+print("Loading Moondream 2 (vikhyatk/moondream2)...")
 start = time.perf_counter()
-model = moondream.vl(model=MODEL_PATH)
+model = get_model()
 print(f"Model loaded in {time.perf_counter() - start:.2f} seconds")
 
 cap = cv2.VideoCapture(VIDEO_PATH)
@@ -73,7 +75,7 @@ def run_detection(pil_image):
 
     for cls in classes:
         try:
-            result = model.detect(encoded, cls)
+            result = model.detect(encoded, object=cls)
         except Exception as e:
             print(f"detect() failed for '{cls}': {e}")
             continue

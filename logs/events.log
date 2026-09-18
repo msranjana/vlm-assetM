@@ -98144,3 +98144,721 @@ curl -L -o models/fire_smoke_yolov8n.pt https://huggingface.co/rabahdev/fire-smo
 2026-09-14T08:08:04.677774+00:00 [INFO] [person_detection] 1 person(s) seen
 2026-09-14T08:08:04.840136+00:00 [WARNING] [person_detection] 1 person(s) detected
 2026-09-14T08:08:04.842751+00:00 [INFO] [person_detection] throughput: 1 frames in 354s = 0.00 fps processed (target 1 fps)
+2026-09-15T03:35:02.902843+00:00 [INFO] [person_detection] moondream ready (prompt='person')
+2026-09-15T03:35:02.935848+00:00 [INFO] [person_detection] started at 1 fps
+2026-09-15T03:35:02.955230+00:00 [INFO] [vehicle_detection] moondream ready (prompts=['car', 'motorcycle', 'bus', 'truck'], fov=full frame)
+2026-09-15T03:35:02.965142+00:00 [INFO] [vehicle_detection] started at 1 fps
+2026-09-15T03:35:02.965142+00:00 [INFO] [asset_detection] moondream ready (query gate + prompts=['street sign', 'bollard', 'barrier', 'street lamp', 'fire hydrant', 'person'], fov=full frame)
+2026-09-15T03:35:02.970430+00:00 [INFO] [asset_detection] started at 1 fps
+2026-09-15T03:35:02.976886+00:00 [INFO] [output] annotated stream: live preview + saving to records\t4_ann.mp4
+2026-09-15T03:35:02.987823+00:00 [INFO] [rtsp] opened t4.mp4
+2026-09-15T03:35:02.989257+00:00 [INFO] [main] started, Ctrl+C to stop
+2026-09-15T03:35:05.675116+00:00 [INFO] [rtsp] throughput: 18 frames read in 15s = 1.20 fps
+2026-09-15T03:35:05.939819+00:00 [INFO] [output] throughput: 3 frames shown in 15s = 0.20 fps
+2026-09-15T03:35:20.725111+00:00 [INFO] [rtsp] throughput: 95 frames read in 15s = 6.31 fps
+2026-09-15T03:35:21.234906+00:00 [INFO] [output] throughput: 25 frames shown in 15s = 1.63 fps
+2026-09-15T03:35:35.801850+00:00 [INFO] [rtsp] throughput: 70 frames read in 15s = 4.64 fps
+2026-09-15T03:35:37.177059+00:00 [INFO] [output] throughput: 18 frames shown in 16s = 1.13 fps
+2026-09-15T03:35:50.827402+00:00 [INFO] [rtsp] throughput: 56 frames read in 15s = 3.73 fps
+2026-09-15T03:35:52.198491+00:00 [INFO] [output] throughput: 15 frames shown in 15s = 1.00 fps
+2026-09-15T03:36:05.924161+00:00 [INFO] [rtsp] throughput: 62 frames read in 15s = 4.11 fps
+2026-09-15T03:36:07.649917+00:00 [INFO] [output] throughput: 16 frames shown in 15s = 1.04 fps
+2026-09-15T03:36:20.426352+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T03:36:20.617510+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T03:36:20.633728+00:00 [INFO] [person_detection] throughput: 1 frames in 90s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:36:21.031040+00:00 [INFO] [rtsp] throughput: 112 frames read in 15s = 7.41 fps
+2026-09-15T03:36:22.918089+00:00 [INFO] [output] throughput: 30 frames shown in 15s = 1.96 fps
+2026-09-15T03:36:36.137308+00:00 [INFO] [rtsp] throughput: 123 frames read in 15s = 8.14 fps
+2026-09-15T03:36:37.965266+00:00 [INFO] [output] throughput: 31 frames shown in 15s = 2.06 fps
+2026-09-15T03:36:51.184390+00:00 [INFO] [rtsp] throughput: 97 frames read in 15s = 6.45 fps
+2026-09-15T03:36:53.236647+00:00 [INFO] [output] throughput: 26 frames shown in 15s = 1.70 fps
+2026-09-15T03:37:06.255892+00:00 [INFO] [rtsp] throughput: 126 frames read in 15s = 8.36 fps
+2026-09-15T03:37:08.481906+00:00 [INFO] [output] throughput: 34 frames shown in 15s = 2.23 fps
+2026-09-15T03:37:21.336387+00:00 [INFO] [rtsp] throughput: 132 frames read in 15s = 8.75 fps
+2026-09-15T03:37:23.545814+00:00 [INFO] [output] throughput: 34 frames shown in 15s = 2.26 fps
+2026-09-15T03:37:36.404442+00:00 [INFO] [rtsp] throughput: 112 frames read in 15s = 7.43 fps
+2026-09-15T03:37:39.013281+00:00 [INFO] [output] throughput: 31 frames shown in 15s = 2.00 fps
+2026-09-15T03:37:47.073245+00:00 [INFO] [rtsp] end of file
+2026-09-15T03:37:54.352008+00:00 [INFO] [output] throughput: 47 frames shown in 15s = 3.06 fps
+2026-09-15T03:37:58.932347+00:00 [INFO] [vehicle_detection] vehicle enter: car id=1 at (3434,1117)
+2026-09-15T03:37:58.933370+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=2 at (2395,1007)
+2026-09-15T03:37:58.958822+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=3 at (509,984)
+2026-09-15T03:37:58.966504+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=4 at (1060,936)
+2026-09-15T03:37:58.978039+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=5 at (3232,946)
+2026-09-15T03:37:58.992843+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=6 at (3457,1107)
+2026-09-15T03:37:59.002535+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 188s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:38:09.417373+00:00 [INFO] [output] throughput: 48 frames shown in 15s = 3.19 fps
+2026-09-15T03:39:14.160421+00:00 [INFO] [asset_detection] asset move: street lamp id=1 +96px
+2026-09-15T03:39:14.233140+00:00 [WARNING] [asset_detection] approved municipal asset movement detected
+2026-09-15T03:39:14.344310+00:00 [WARNING] [asset_detection] approved municipal asset movement detected
+2026-09-15T03:39:14.346318+00:00 [INFO] [asset_detection] throughput: 1 frames in 264s = 0.00 fps processed (target 1 fps)
+2026-09-15T03:39:55.163519+00:00 [INFO] [person_detection] 3 person(s) seen
+2026-09-15T03:39:55.270653+00:00 [WARNING] [person_detection] 3 person(s) detected
+2026-09-15T03:39:55.270653+00:00 [INFO] [person_detection] throughput: 1 frames in 215s = 0.00 fps processed (target 1 fps)
+2026-09-15T03:40:29.990588+00:00 [INFO] [vehicle_detection] vehicle enter: car id=7 at (1919,1185)
+2026-09-15T03:40:30.033833+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=8 at (1147,813)
+2026-09-15T03:40:30.043986+00:00 [INFO] [vehicle_detection] vehicle exit: car id=1 duration=174.0s moved=0px
+2026-09-15T03:40:30.047035+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=2 duration=174.0s moved=0px
+2026-09-15T03:40:30.050754+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=3 duration=174.0s moved=0px
+2026-09-15T03:40:30.056809+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=4 duration=174.0s moved=0px
+2026-09-15T03:40:30.059062+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=5 duration=174.0s moved=0px
+2026-09-15T03:40:30.061337+00:00 [INFO] [vehicle_detection] vehicle exit: truck id=6 duration=174.0s moved=0px
+2026-09-15T03:40:30.066357+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 151s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:41:11.775478+00:00 [INFO] [asset_detection] asset move: street lamp id=5 +116px
+2026-09-15T03:41:11.796671+00:00 [WARNING] [asset_detection] approved municipal asset movement detected
+2026-09-15T03:41:11.896240+00:00 [WARNING] [asset_detection] approved municipal asset movement detected
+2026-09-15T03:41:11.902880+00:00 [INFO] [asset_detection] throughput: 1 frames in 118s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:41:32.893742+00:00 [INFO] [person_detection] throughput: 1 frames in 98s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:42:06.840555+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 97s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:42:43.112471+00:00 [INFO] [asset_detection] throughput: 1 frames in 91s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:43:03.635106+00:00 [INFO] [person_detection] throughput: 1 frames in 91s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:43:41.193820+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 94s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:44:21.463517+00:00 [INFO] [asset_detection] throughput: 1 frames in 98s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:44:43.543500+00:00 [INFO] [person_detection] throughput: 1 frames in 100s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:45:21.213489+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 100s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:46:00.882827+00:00 [INFO] [asset_detection] throughput: 1 frames in 99s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:46:23.213692+00:00 [INFO] [person_detection] throughput: 1 frames in 100s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:47:00.433592+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 99s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:47:39.502766+00:00 [INFO] [asset_detection] throughput: 1 frames in 99s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:48:01.562545+00:00 [INFO] [person_detection] throughput: 1 frames in 98s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:48:39.248789+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 99s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:49:17.967895+00:00 [INFO] [asset_detection] throughput: 1 frames in 98s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:49:40.489023+00:00 [INFO] [person_detection] throughput: 1 frames in 99s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:50:16.881214+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 98s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:50:57.503791+00:00 [INFO] [asset_detection] throughput: 1 frames in 100s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:51:20.705196+00:00 [INFO] [person_detection] throughput: 1 frames in 100s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:51:56.793991+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 100s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:52:35.673117+00:00 [INFO] [asset_detection] throughput: 1 frames in 98s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:52:56.434253+00:00 [INFO] [person_detection] throughput: 1 frames in 96s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:53:30.124055+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 93s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:54:05.754381+00:00 [INFO] [asset_detection] throughput: 1 frames in 90s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:54:25.832931+00:00 [INFO] [person_detection] throughput: 1 frames in 89s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:54:59.554211+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 89s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:55:34.894267+00:00 [INFO] [asset_detection] throughput: 1 frames in 89s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:55:55.686884+00:00 [INFO] [person_detection] throughput: 1 frames in 90s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:56:29.095594+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 90s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:57:04.664462+00:00 [INFO] [asset_detection] throughput: 1 frames in 90s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:57:24.981238+00:00 [INFO] [person_detection] throughput: 1 frames in 89s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:57:59.551247+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 90s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:58:35.365473+00:00 [INFO] [asset_detection] throughput: 1 frames in 91s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:58:56.489686+00:00 [INFO] [person_detection] throughput: 1 frames in 92s = 0.01 fps processed (target 1 fps)
+2026-09-15T03:59:31.281405+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 92s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:00:06.723598+00:00 [INFO] [asset_detection] throughput: 1 frames in 91s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:00:26.744516+00:00 [INFO] [person_detection] throughput: 1 frames in 90s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:01:00.124367+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 89s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:01:35.379655+00:00 [INFO] [asset_detection] throughput: 1 frames in 89s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:01:56.074797+00:00 [INFO] [person_detection] throughput: 1 frames in 89s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:02:29.605942+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 89s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:03:05.626761+00:00 [INFO] [asset_detection] throughput: 1 frames in 90s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:03:26.544492+00:00 [INFO] [person_detection] throughput: 1 frames in 90s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:04:08.581434+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 99s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:04:56.662528+00:00 [INFO] [asset_detection] throughput: 1 frames in 111s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:05:17.677749+00:00 [INFO] [person_detection] throughput: 1 frames in 111s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:05:58.918946+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 110s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:06:57.033567+00:00 [INFO] [asset_detection] throughput: 1 frames in 120s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:07:22.945612+00:00 [INFO] [person_detection] throughput: 1 frames in 125s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:08:05.504660+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 127s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:08:58.139756+00:00 [INFO] [asset_detection] throughput: 1 frames in 121s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:09:20.639777+00:00 [INFO] [person_detection] throughput: 1 frames in 118s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:09:58.430898+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 113s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:10:37.669692+00:00 [INFO] [asset_detection] throughput: 1 frames in 100s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:10:59.918376+00:00 [INFO] [person_detection] throughput: 1 frames in 99s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:11:39.034884+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 101s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:13:12.825154+00:00 [INFO] [asset_detection] throughput: 1 frames in 155s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:14:02.284066+00:00 [INFO] [person_detection] throughput: 1 frames in 182s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:15:33.607708+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 235s = 0.00 fps processed (target 1 fps)
+2026-09-15T04:55:39.948300+00:00 [INFO] [asset_detection] throughput: 1 frames in 2547s = 0.00 fps processed (target 1 fps)
+2026-09-15T04:56:17.692891+00:00 [INFO] [person_detection] throughput: 1 frames in 2535s = 0.00 fps processed (target 1 fps)
+2026-09-15T04:57:44.865206+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 2531s = 0.00 fps processed (target 1 fps)
+2026-09-15T04:57:58.053710+00:00 [INFO] [person_detection] throughput: 1 frames in 100s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:58:25.629736+00:00 [INFO] [asset_detection] throughput: 1 frames in 166s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:58:54.001706+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 69s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:59:09.979363+00:00 [INFO] [person_detection] throughput: 1 frames in 72s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:59:34.248476+00:00 [INFO] [asset_detection] throughput: 1 frames in 69s = 0.01 fps processed (target 1 fps)
+2026-09-15T04:59:59.157355+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 65s = 0.02 fps processed (target 1 fps)
+2026-09-15T05:00:15.406612+00:00 [INFO] [person_detection] throughput: 1 frames in 65s = 0.02 fps processed (target 1 fps)
+2026-09-15T05:01:00.204517+00:00 [INFO] [asset_detection] throughput: 1 frames in 86s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:01:34.298439+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 95s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:01:54.474767+00:00 [INFO] [person_detection] throughput: 1 frames in 99s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:02:30.351517+00:00 [INFO] [asset_detection] throughput: 1 frames in 90s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:03:14.505714+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 100s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:03:40.988291+00:00 [INFO] [person_detection] throughput: 1 frames in 107s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:04:23.701729+00:00 [INFO] [asset_detection] throughput: 1 frames in 113s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:04:58.837534+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 104s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:05:21.718225+00:00 [INFO] [person_detection] throughput: 1 frames in 101s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:06:00.589773+00:00 [INFO] [asset_detection] throughput: 1 frames in 97s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:06:43.237680+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 104s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:07:06.557875+00:00 [INFO] [person_detection] throughput: 1 frames in 105s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:07:46.458136+00:00 [INFO] [asset_detection] throughput: 1 frames in 106s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:08:19.188953+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 96s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:08:39.088510+00:00 [INFO] [person_detection] throughput: 1 frames in 93s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:09:13.158251+00:00 [INFO] [asset_detection] throughput: 1 frames in 87s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:09:45.500105+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 86s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:10:06.329267+00:00 [INFO] [person_detection] throughput: 1 frames in 87s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:10:51.482333+00:00 [INFO] [asset_detection] throughput: 1 frames in 98s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:11:49.479385+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 124s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:12:15.389462+00:00 [INFO] [person_detection] throughput: 1 frames in 129s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:12:53.842626+00:00 [INFO] [asset_detection] throughput: 1 frames in 122s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:13:46.992642+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 118s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:14:18.233071+00:00 [INFO] [person_detection] throughput: 1 frames in 123s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:15:03.630732+00:00 [INFO] [asset_detection] throughput: 1 frames in 130s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:15:46.523432+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 120s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:16:08.075756+00:00 [INFO] [person_detection] throughput: 1 frames in 110s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:16:51.126243+00:00 [INFO] [asset_detection] throughput: 1 frames in 107s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:17:33.301595+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 107s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:17:56.528134+00:00 [INFO] [person_detection] throughput: 1 frames in 108s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:18:41.115949+00:00 [INFO] [asset_detection] throughput: 1 frames in 110s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:19:29.120663+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 116s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:19:52.478853+00:00 [INFO] [person_detection] throughput: 1 frames in 116s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:20:29.421722+00:00 [INFO] [asset_detection] throughput: 1 frames in 108s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:21:03.619823+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 94s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:21:23.361823+00:00 [INFO] [person_detection] throughput: 1 frames in 91s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:21:58.563158+00:00 [INFO] [asset_detection] throughput: 1 frames in 89s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:22:31.490070+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 88s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:22:52.101400+00:00 [INFO] [person_detection] throughput: 1 frames in 89s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:23:32.445307+00:00 [INFO] [asset_detection] throughput: 1 frames in 94s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:24:09.098653+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 98s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:24:33.081949+00:00 [INFO] [person_detection] throughput: 1 frames in 101s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:26:22.947114+00:00 [INFO] [asset_detection] throughput: 1 frames in 171s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:27:07.286297+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 178s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:27:29.429083+00:00 [INFO] [person_detection] throughput: 1 frames in 176s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:29:31.069132+00:00 [INFO] [asset_detection] throughput: 1 frames in 188s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:30:30.601864+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 203s = 0.00 fps processed (target 1 fps)
+2026-09-15T05:31:02.552291+00:00 [INFO] [person_detection] throughput: 1 frames in 213s = 0.00 fps processed (target 1 fps)
+2026-09-15T05:32:15.817013+00:00 [INFO] [asset_detection] throughput: 1 frames in 165s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:33:24.297497+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 174s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:34:02.102503+00:00 [INFO] [person_detection] throughput: 1 frames in 180s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:35:46.477453+00:00 [INFO] [asset_detection] throughput: 1 frames in 211s = 0.00 fps processed (target 1 fps)
+2026-09-15T05:36:47.331488+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 203s = 0.00 fps processed (target 1 fps)
+2026-09-15T05:37:14.054658+00:00 [INFO] [person_detection] throughput: 1 frames in 192s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:38:25.915214+00:00 [INFO] [asset_detection] throughput: 1 frames in 159s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:39:19.452620+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 152s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:39:57.413920+00:00 [INFO] [person_detection] throughput: 1 frames in 163s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:40:36.956709+00:00 [INFO] [asset_detection] throughput: 1 frames in 131s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:41:13.323553+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 114s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:41:35.729836+00:00 [INFO] [person_detection] throughput: 1 frames in 98s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:42:17.535664+00:00 [INFO] [asset_detection] throughput: 1 frames in 101s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:43:50.945184+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 158s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:44:19.233969+00:00 [INFO] [person_detection] throughput: 1 frames in 164s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:45:03.923451+00:00 [INFO] [asset_detection] throughput: 1 frames in 166s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:45:43.403946+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 112s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:46:07.367363+00:00 [INFO] [person_detection] throughput: 1 frames in 108s = 0.01 fps processed (target 1 fps)
+2026-09-15T05:46:44.298934+00:00 [INFO] [main] stopping
+2026-09-15T05:46:50.546241+00:00 [INFO] [output] closed records\t4_ann.mp4 (405 frames)
+2026-09-15T06:24:16.682692+00:00 [INFO] [person_detection] moondream ready (prompt='person')
+2026-09-15T06:24:16.684701+00:00 [INFO] [person_detection] started at 1 fps
+2026-09-15T06:24:16.684701+00:00 [INFO] [vehicle_detection] moondream ready (prompts=['car', 'motorcycle', 'bus', 'truck'], fov=full frame)
+2026-09-15T06:24:16.684701+00:00 [INFO] [vehicle_detection] started at 1 fps
+2026-09-15T06:24:16.684701+00:00 [INFO] [asset_detection] moondream ready (query gate + prompts=['street sign', 'bollard', 'barrier', 'street lamp', 'fire hydrant', 'person'], fov=full frame)
+2026-09-15T06:24:16.688030+00:00 [INFO] [asset_detection] started at 1 fps
+2026-09-15T06:24:16.688030+00:00 [INFO] [output] annotated stream: live preview + saving to records\t5_ann.mp4
+2026-09-15T06:24:16.692782+00:00 [INFO] [rtsp] opened t5.mp4
+2026-09-15T06:24:16.693878+00:00 [INFO] [main] started, Ctrl+C to stop
+2026-09-15T06:24:17.150834+00:00 [INFO] [rtsp] end of file
+2026-09-15T06:24:47.865596+00:00 [INFO] [vehicle_detection] vehicle enter: motorcycle id=1 at (115,71)
+2026-09-15T06:24:47.906711+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 38s = 0.03 fps processed (target 1 fps)
+2026-09-15T06:25:36.458839+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:25:36.465842+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:25:36.471835+00:00 [INFO] [asset_detection] throughput: 1 frames in 86s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:26:12.032538+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T06:26:12.038597+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T06:26:12.040602+00:00 [INFO] [person_detection] throughput: 1 frames in 122s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:26:45.106589+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 117s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:27:32.352651+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:27:32.360423+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:27:32.366831+00:00 [INFO] [asset_detection] throughput: 1 frames in 116s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:27:59.549564+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T06:27:59.557262+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T06:27:59.562928+00:00 [INFO] [person_detection] throughput: 1 frames in 108s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:28:36.827978+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 112s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:29:34.747889+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:29:34.752889+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:29:34.754884+00:00 [INFO] [asset_detection] throughput: 1 frames in 122s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:29:58.184163+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T06:29:58.186162+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T06:29:58.189165+00:00 [INFO] [person_detection] throughput: 1 frames in 119s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:30:48.186955+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 131s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:31:56.873708+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:31:56.876710+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:31:56.877707+00:00 [INFO] [asset_detection] throughput: 1 frames in 142s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:32:29.249873+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T06:32:29.253871+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T06:32:29.255961+00:00 [INFO] [person_detection] throughput: 1 frames in 151s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:33:20.546173+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 152s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:34:03.288471+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:34:03.291486+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:34:03.293477+00:00 [INFO] [asset_detection] throughput: 1 frames in 126s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:34:24.358876+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T06:34:24.360900+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T06:34:24.362902+00:00 [INFO] [person_detection] throughput: 1 frames in 115s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:34:51.425777+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 91s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:35:28.111321+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:35:28.113314+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:35:28.115307+00:00 [INFO] [asset_detection] throughput: 1 frames in 85s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:35:46.487029+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T06:35:46.489032+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T06:35:46.490031+00:00 [INFO] [person_detection] throughput: 1 frames in 82s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:36:10.274426+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 79s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:37:00.939270+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:37:00.941271+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:37:00.943274+00:00 [INFO] [asset_detection] throughput: 1 frames in 93s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:37:23.188241+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T06:37:23.190242+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T06:37:23.192243+00:00 [INFO] [person_detection] throughput: 1 frames in 97s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:37:58.231684+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 108s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:39:08.902234+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:39:08.902234+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:39:08.910076+00:00 [INFO] [asset_detection] throughput: 1 frames in 128s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:39:40.596704+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T06:39:40.598780+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T06:39:40.599495+00:00 [INFO] [person_detection] throughput: 1 frames in 137s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:40:01.145370+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 123s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:40:28.994595+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:40:28.999466+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset
+2026-09-15T06:40:28.999466+00:00 [INFO] [asset_detection] throughput: 1 frames in 80s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:40:49.488695+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T06:40:49.488695+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T06:40:49.488695+00:00 [INFO] [person_detection] throughput: 1 frames in 69s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:40:49.876693+00:00 [INFO] [main] stopping
+2026-09-15T06:40:56.021289+00:00 [INFO] [output] closed records\t5_ann.mp4 (121 frames)
+2026-09-15T06:44:22.649334+00:00 [INFO] [person_detection] moondream ready (prompt='person')
+2026-09-15T06:44:22.741350+00:00 [INFO] [person_detection] started at 1 fps
+2026-09-15T06:44:22.749169+00:00 [INFO] [vehicle_detection] moondream ready (prompts=['car', 'motorcycle', 'bus', 'truck'], fov=full frame)
+2026-09-15T06:44:22.753188+00:00 [INFO] [vehicle_detection] started at 1 fps
+2026-09-15T06:44:22.756691+00:00 [INFO] [asset_detection] moondream ready (query gate + prompts=['street sign', 'bollard', 'barrier', 'street lamp', 'fire hydrant', 'person'], fov=full frame)
+2026-09-15T06:44:22.771431+00:00 [INFO] [asset_detection] started at 1 fps
+2026-09-15T06:44:22.782053+00:00 [INFO] [output] annotated stream: live preview + saving to records\t5_ann.mp4
+2026-09-15T06:44:22.793575+00:00 [INFO] [rtsp] opened t5.mp4
+2026-09-15T06:44:22.795588+00:00 [INFO] [main] started, Ctrl+C to stop
+2026-09-15T06:44:23.127011+00:00 [INFO] [rtsp] end of file
+2026-09-15T06:44:37.591153+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T06:44:37.613839+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T06:44:37.618059+00:00 [INFO] [person_detection] throughput: 1 frames in 24s = 0.04 fps processed (target 1 fps)
+2026-09-15T06:44:54.134998+00:00 [INFO] [vehicle_detection] vehicle enter: motorcycle id=1 at (115,71)
+2026-09-15T06:44:54.141046+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 41s = 0.02 fps processed (target 1 fps)
+2026-09-15T06:48:38.885225+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset: 1. the image shows a person, but it is difficult to determine if they are climbing on the street sign or the bollard. the action is not clearly depicted. 2. the image shows a person, but it is difficu
+2026-09-15T06:48:38.909408+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset: 1. the image shows a person, but it is difficult to determine if they are climbing on the street sign or the bollard. the action is not clearly depicted. 2. the image shows a person, but it is difficu
+2026-09-15T06:48:38.933604+00:00 [INFO] [asset_detection] throughput: 1 frames in 265s = 0.00 fps processed (target 1 fps)
+2026-09-15T06:49:10.636804+00:00 [INFO] [person_detection] 1 person(s) seen
+2026-09-15T06:49:10.636804+00:00 [WARNING] [person_detection] 1 person(s) detected
+2026-09-15T06:49:10.645298+00:00 [INFO] [person_detection] throughput: 1 frames in 273s = 0.00 fps processed (target 1 fps)
+2026-09-15T06:49:58.939555+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 305s = 0.00 fps processed (target 1 fps)
+2026-09-15T06:50:40.924802+00:00 [INFO] [main] stopping
+2026-09-15T06:50:47.146960+00:00 [INFO] [output] closed records\t5_ann.mp4 (133 frames)
+2026-09-15T06:53:32.965073+00:00 [INFO] [person_detection] moondream ready (prompt='person')
+2026-09-15T06:53:33.143399+00:00 [INFO] [person_detection] started at 1 fps
+2026-09-15T06:53:33.145403+00:00 [INFO] [vehicle_detection] moondream ready (prompts=['car', 'motorcycle', 'bus', 'truck'], fov=full frame)
+2026-09-15T06:53:33.149413+00:00 [INFO] [vehicle_detection] started at 1 fps
+2026-09-15T06:53:33.151417+00:00 [INFO] [asset_detection] moondream ready (query gate + prompts=['street sign', 'bollard', 'barrier', 'street lamp', 'fire hydrant', 'person'], fov=full frame)
+2026-09-15T06:53:33.171406+00:00 [INFO] [asset_detection] started at 1 fps
+2026-09-15T06:53:33.173417+00:00 [INFO] [output] annotated stream: live preview + saving to records\t6_ann.mp4
+2026-09-15T06:53:33.175425+00:00 [INFO] [rtsp] opened t6.mp4
+2026-09-15T06:53:33.176637+00:00 [INFO] [main] started, Ctrl+C to stop
+2026-09-15T06:53:38.818625+00:00 [INFO] [rtsp] throughput: 1121 frames read in 15s = 74.70 fps
+2026-09-15T06:53:38.830505+00:00 [INFO] [output] throughput: 237 frames shown in 15s = 15.78 fps
+2026-09-15T06:53:43.901408+00:00 [INFO] [rtsp] end of file
+2026-09-15T06:55:16.780850+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T06:55:16.797471+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T06:55:16.805026+00:00 [INFO] [person_detection] throughput: 1 frames in 113s = 0.01 fps processed (target 1 fps)
+2026-09-15T06:56:29.302407+00:00 [INFO] [vehicle_detection] vehicle enter: car id=1 at (612,284)
+2026-09-15T06:56:29.310646+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=2 at (134,803)
+2026-09-15T06:56:29.318919+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=3 at (617,278)
+2026-09-15T06:56:29.325606+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=4 at (121,803)
+2026-09-15T06:56:29.327618+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 186s = 0.01 fps processed (target 1 fps)
+2026-09-15T07:01:48.229413+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset: 1. the image shows fixed public equipment, but it's not possible to determine if it's a public equipment issue or if it's interference/tampering. 2. the image shows fixed public equipment, but it's no
+2026-09-15T07:01:48.236139+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset: 1. the image shows fixed public equipment, but it's not possible to determine if it's a public equipment issue or if it's interference/tampering. 2. the image shows fixed public equipment, but it's no
+2026-09-15T07:01:48.236139+00:00 [INFO] [asset_detection] throughput: 1 frames in 504s = 0.00 fps processed (target 1 fps)
+2026-09-15T07:02:56.842152+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T07:02:56.851978+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T07:02:56.853991+00:00 [INFO] [person_detection] throughput: 1 frames in 460s = 0.00 fps processed (target 1 fps)
+2026-09-15T07:04:56.817492+00:00 [INFO] [vehicle_detection] vehicle enter: car id=5 at (215,319)
+2026-09-15T07:04:56.824312+00:00 [INFO] [vehicle_detection] vehicle enter: car id=6 at (200,803)
+2026-09-15T07:04:56.824312+00:00 [INFO] [vehicle_detection] vehicle enter: car id=7 at (214,165)
+2026-09-15T07:04:56.837451+00:00 [INFO] [vehicle_detection] vehicle enter: car id=8 at (499,575)
+2026-09-15T07:04:56.841184+00:00 [INFO] [vehicle_detection] vehicle enter: car id=9 at (222,163)
+2026-09-15T07:04:56.852429+00:00 [INFO] [vehicle_detection] vehicle enter: car id=10 at (565,300)
+2026-09-15T07:04:56.857400+00:00 [INFO] [vehicle_detection] vehicle enter: car id=11 at (203,166)
+2026-09-15T07:04:56.867398+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=12 at (200,325)
+2026-09-15T07:04:56.878979+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=2 duration=175.2s moved=0px
+2026-09-15T07:04:56.886307+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=3 duration=175.2s moved=0px
+2026-09-15T07:04:56.886307+00:00 [INFO] [vehicle_detection] vehicle exit: truck id=4 duration=175.2s moved=0px
+2026-09-15T07:04:56.893039+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 508s = 0.00 fps processed (target 1 fps)
+2026-09-15T07:09:56.471756+00:00 [INFO] [main] stopping
+2026-09-15T07:10:01.694286+00:00 [INFO] [asset_detection] asset move: bollard id=1 +31px
+2026-09-15T07:10:01.699411+00:00 [WARNING] [asset_detection] unauthorized interference near municipal asset: 1. the image shows a person climbing a street sign, but it is not clear if the action is intentional or unintentional. 2. the image shows a person climbing a street sign, but it is not clear if the ac
+2026-09-15T07:10:01.707576+00:00 [CRITICAL] [asset_detection] unauthorized interference near municipal asset: 1. the image shows a person climbing a street sign, but it is not clear if the action is intentional or unintentional. 2. the image shows a person climbing a street sign, but it is not clear if the ac
+2026-09-15T07:10:01.707576+00:00 [INFO] [asset_detection] throughput: 1 frames in 493s = 0.00 fps processed (target 1 fps)
+2026-09-15T07:10:01.761753+00:00 [INFO] [output] closed records\t6_ann.mp4 (573 frames)
+2026-09-15T07:10:19.474354+00:00 [INFO] [person_detection] moondream ready (prompt='person')
+2026-09-15T07:10:19.612318+00:00 [INFO] [person_detection] started at 1 fps
+2026-09-15T07:10:19.618354+00:00 [INFO] [vehicle_detection] moondream ready (prompts=['car', 'motorcycle', 'bus', 'truck'], fov=full frame)
+2026-09-15T07:10:19.622365+00:00 [INFO] [vehicle_detection] started at 1 fps
+2026-09-15T07:10:19.622365+00:00 [INFO] [asset_detection] moondream ready (strict incident gate + prompts=['street sign', 'bollard', 'barrier', 'street lamp', 'fire hydrant', 'police vehicle', 'municipal vehicle', 'person'], fov=full frame, confirm_frames=2, min_move_px=40)
+2026-09-15T07:10:19.625922+00:00 [INFO] [asset_detection] started at 1 fps
+2026-09-15T07:10:19.627504+00:00 [INFO] [output] annotated stream: live preview + saving to records\t6_ann.mp4
+2026-09-15T07:10:19.628875+00:00 [INFO] [rtsp] opened t6.mp4
+2026-09-15T07:10:19.629734+00:00 [INFO] [main] started, Ctrl+C to stop
+2026-09-15T07:10:25.198514+00:00 [INFO] [rtsp] throughput: 1082 frames read in 15s = 72.13 fps
+2026-09-15T07:10:25.198514+00:00 [INFO] [output] throughput: 228 frames shown in 15s = 15.20 fps
+2026-09-15T07:10:31.012519+00:00 [INFO] [rtsp] end of file
+2026-09-15T07:12:11.518249+00:00 [INFO] [person_detection] 10 person(s) seen
+2026-09-15T07:12:11.534717+00:00 [WARNING] [person_detection] 10 person(s) detected
+2026-09-15T07:12:11.534717+00:00 [INFO] [person_detection] throughput: 1 frames in 121s = 0.01 fps processed (target 1 fps)
+2026-09-15T07:13:29.048102+00:00 [INFO] [vehicle_detection] vehicle enter: car id=1 at (621,284)
+2026-09-15T07:13:29.055036+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=2 at (134,802)
+2026-09-15T07:13:29.058068+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=3 at (618,278)
+2026-09-15T07:13:29.067722+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=4 at (121,802)
+2026-09-15T07:13:29.074921+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 199s = 0.01 fps processed (target 1 fps)
+2026-09-15T07:17:02.315207+00:00 [INFO] [asset_detection] throughput: 1 frames in 412s = 0.00 fps processed (target 1 fps)
+2026-09-15T07:19:04.122850+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T07:19:04.135258+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T07:19:04.140335+00:00 [INFO] [person_detection] throughput: 1 frames in 413s = 0.00 fps processed (target 1 fps)
+2026-09-15T07:21:13.948863+00:00 [INFO] [vehicle_detection] vehicle enter: car id=5 at (215,319)
+2026-09-15T07:21:13.959100+00:00 [INFO] [vehicle_detection] vehicle enter: car id=6 at (200,803)
+2026-09-15T07:21:13.963153+00:00 [INFO] [vehicle_detection] vehicle enter: car id=7 at (214,165)
+2026-09-15T07:21:13.966366+00:00 [INFO] [vehicle_detection] vehicle enter: car id=8 at (499,575)
+2026-09-15T07:21:13.975180+00:00 [INFO] [vehicle_detection] vehicle enter: car id=9 at (222,163)
+2026-09-15T07:21:13.982236+00:00 [INFO] [vehicle_detection] vehicle enter: car id=10 at (565,300)
+2026-09-15T07:21:13.985065+00:00 [INFO] [vehicle_detection] vehicle enter: car id=11 at (203,166)
+2026-09-15T07:21:13.990446+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=12 at (200,325)
+2026-09-15T07:21:13.995251+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=2 duration=188.5s moved=0px
+2026-09-15T07:21:13.998135+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=3 duration=188.5s moved=0px
+2026-09-15T07:21:13.999349+00:00 [INFO] [vehicle_detection] vehicle exit: truck id=4 duration=188.5s moved=0px
+2026-09-15T07:21:13.999349+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 465s = 0.00 fps processed (target 1 fps)
+2026-09-15T07:25:56.938255+00:00 [INFO] [main] stopping
+2026-09-15T07:26:03.173458+00:00 [INFO] [output] closed records\t6_ann.mp4 (565 frames)
+2026-09-15T07:27:37.315395+00:00 [INFO] [person_detection] moondream ready (prompt='person')
+2026-09-15T07:27:37.447684+00:00 [INFO] [person_detection] started at 1 fps
+2026-09-15T07:27:37.449689+00:00 [INFO] [vehicle_detection] moondream ready (prompts=['car', 'motorcycle', 'bus', 'truck'], fov=full frame)
+2026-09-15T07:27:37.449689+00:00 [INFO] [vehicle_detection] started at 1 fps
+2026-09-15T07:27:37.451694+00:00 [INFO] [asset_detection] moondream ready (strict incident gate + prompts=['street sign', 'bollard', 'barrier', 'street lamp', 'fire hydrant', 'police vehicle', 'municipal vehicle', 'person'], fov=full frame, confirm_frames=2, min_move_px=40)
+2026-09-15T07:27:37.453204+00:00 [INFO] [asset_detection] started at 1 fps
+2026-09-15T07:27:37.472503+00:00 [INFO] [output] annotated stream: live preview + saving to records\t6_ann.mp4
+2026-09-15T07:27:37.474510+00:00 [INFO] [rtsp] opened t6.mp4
+2026-09-15T07:27:37.475516+00:00 [INFO] [main] started, Ctrl+C to stop
+2026-09-15T07:27:43.353229+00:00 [INFO] [rtsp] throughput: 996 frames read in 15s = 66.38 fps
+2026-09-15T07:27:43.362310+00:00 [INFO] [output] throughput: 238 frames shown in 15s = 15.85 fps
+2026-09-15T07:27:50.295213+00:00 [INFO] [rtsp] end of file
+2026-09-15T07:30:04.785640+00:00 [INFO] [person_detection] 16 person(s) seen
+2026-09-15T07:30:04.800217+00:00 [WARNING] [person_detection] 16 person(s) detected
+2026-09-15T07:30:04.805474+00:00 [INFO] [person_detection] throughput: 1 frames in 156s = 0.01 fps processed (target 1 fps)
+2026-09-15T07:30:55.796781+00:00 [INFO] [vehicle_detection] vehicle enter: car id=1 at (621,277)
+2026-09-15T07:30:55.798835+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=2 at (618,272)
+2026-09-15T07:30:55.803912+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=3 at (95,803)
+2026-09-15T07:30:55.808592+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 207s = 0.00 fps processed (target 1 fps)
+2026-09-15T07:47:38.254908+00:00 [INFO] [asset_detection] throughput: 1 frames in 1210s = 0.00 fps processed (target 1 fps)
+2026-09-15T07:49:54.041406+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T07:49:54.078709+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T07:49:54.109906+00:00 [INFO] [person_detection] throughput: 1 frames in 1189s = 0.00 fps processed (target 1 fps)
+2026-09-15T07:51:47.517330+00:00 [INFO] [vehicle_detection] vehicle enter: car id=4 at (215,319)
+2026-09-15T07:51:47.534061+00:00 [INFO] [vehicle_detection] vehicle enter: car id=5 at (200,803)
+2026-09-15T07:51:47.541617+00:00 [INFO] [vehicle_detection] vehicle enter: car id=6 at (214,165)
+2026-09-15T07:51:47.553758+00:00 [INFO] [vehicle_detection] vehicle enter: car id=7 at (499,575)
+2026-09-15T07:51:47.568088+00:00 [INFO] [vehicle_detection] vehicle enter: car id=8 at (222,163)
+2026-09-15T07:51:47.576693+00:00 [INFO] [vehicle_detection] vehicle enter: car id=9 at (565,300)
+2026-09-15T07:51:47.584017+00:00 [INFO] [vehicle_detection] vehicle enter: car id=10 at (203,166)
+2026-09-15T07:51:47.592570+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=11 at (200,325)
+2026-09-15T07:51:47.598121+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=2 duration=197.4s moved=0px
+2026-09-15T07:51:47.605699+00:00 [INFO] [vehicle_detection] vehicle exit: truck id=3 duration=197.4s moved=0px
+2026-09-15T07:51:47.609988+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1252s = 0.00 fps processed (target 1 fps)
+2026-09-15T08:01:51.967495+00:00 [INFO] [asset_detection] throughput: 1 frames in 854s = 0.00 fps processed (target 1 fps)
+2026-09-15T08:03:47.313476+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T08:03:47.327597+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T08:03:47.331310+00:00 [INFO] [person_detection] throughput: 1 frames in 833s = 0.00 fps processed (target 1 fps)
+2026-09-15T08:05:19.356480+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 812s = 0.00 fps processed (target 1 fps)
+2026-09-15T08:26:43.479684+00:00 [INFO] [asset_detection] throughput: 1 frames in 1492s = 0.00 fps processed (target 1 fps)
+2026-09-15T08:28:07.239973+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T08:28:07.273233+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T08:28:07.276185+00:00 [INFO] [person_detection] throughput: 1 frames in 1460s = 0.00 fps processed (target 1 fps)
+2026-09-15T08:29:19.226864+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1440s = 0.00 fps processed (target 1 fps)
+2026-09-15T08:47:17.149350+00:00 [INFO] [asset_detection] throughput: 1 frames in 1234s = 0.00 fps processed (target 1 fps)
+2026-09-15T08:48:31.597969+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T08:48:31.606411+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T08:48:31.608618+00:00 [INFO] [person_detection] throughput: 1 frames in 1224s = 0.00 fps processed (target 1 fps)
+2026-09-15T08:49:36.238043+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1217s = 0.00 fps processed (target 1 fps)
+2026-09-15T09:18:35.933707+00:00 [INFO] [asset_detection] throughput: 1 frames in 1879s = 0.00 fps processed (target 1 fps)
+2026-09-15T09:20:54.766149+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T09:20:54.788568+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T09:20:54.788568+00:00 [INFO] [person_detection] throughput: 1 frames in 1943s = 0.00 fps processed (target 1 fps)
+2026-09-15T09:23:00.982951+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 2005s = 0.00 fps processed (target 1 fps)
+2026-09-15T09:54:40.950335+00:00 [INFO] [asset_detection] throughput: 1 frames in 2165s = 0.00 fps processed (target 1 fps)
+2026-09-15T09:55:52.170601+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T09:55:52.180502+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T09:55:52.182524+00:00 [INFO] [person_detection] throughput: 1 frames in 2097s = 0.00 fps processed (target 1 fps)
+2026-09-15T09:57:11.440152+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 2050s = 0.00 fps processed (target 1 fps)
+2026-09-15T10:15:49.541315+00:00 [INFO] [asset_detection] throughput: 1 frames in 1269s = 0.00 fps processed (target 1 fps)
+2026-09-15T10:17:05.105295+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T10:17:05.114260+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T10:17:05.116605+00:00 [INFO] [person_detection] throughput: 1 frames in 1273s = 0.00 fps processed (target 1 fps)
+2026-09-15T10:18:16.425717+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1265s = 0.00 fps processed (target 1 fps)
+2026-09-15T10:36:04.011646+00:00 [INFO] [asset_detection] throughput: 1 frames in 1214s = 0.00 fps processed (target 1 fps)
+2026-09-15T10:37:18.363375+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T10:37:18.379307+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T10:37:18.380829+00:00 [INFO] [person_detection] throughput: 1 frames in 1213s = 0.00 fps processed (target 1 fps)
+2026-09-15T10:38:34.009402+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1218s = 0.00 fps processed (target 1 fps)
+2026-09-15T10:56:26.233574+00:00 [INFO] [asset_detection] throughput: 1 frames in 1222s = 0.00 fps processed (target 1 fps)
+2026-09-15T10:57:49.584679+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T10:57:49.611803+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T10:57:49.615260+00:00 [INFO] [person_detection] throughput: 1 frames in 1231s = 0.00 fps processed (target 1 fps)
+2026-09-15T10:58:58.234772+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1224s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:09:22.486990+00:00 [INFO] [asset_detection] throughput: 1 frames in 776s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:11:24.729567+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T11:11:24.768815+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T11:11:24.770900+00:00 [INFO] [person_detection] throughput: 1 frames in 815s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:13:46.027608+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 888s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:23:11.407557+00:00 [INFO] [asset_detection] throughput: 1 frames in 829s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:25:27.508791+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T11:25:27.523882+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T11:25:27.527731+00:00 [INFO] [person_detection] throughput: 1 frames in 843s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:27:30.506371+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 824s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:32:36.208410+00:00 [INFO] [asset_detection] throughput: 1 frames in 565s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:35:06.361445+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T11:35:06.375128+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T11:35:06.378145+00:00 [INFO] [person_detection] throughput: 1 frames in 579s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:36:05.259252+00:00 [INFO] [vehicle_detection] vehicle exit: car id=1 duration=14392.1s moved=126px
+2026-09-15T11:36:05.274737+00:00 [INFO] [vehicle_detection] vehicle exit: car id=4 duration=14194.7s moved=0px
+2026-09-15T11:36:05.278364+00:00 [INFO] [vehicle_detection] vehicle exit: car id=5 duration=14194.7s moved=0px
+2026-09-15T11:36:05.282919+00:00 [INFO] [vehicle_detection] vehicle exit: car id=6 duration=14194.7s moved=0px
+2026-09-15T11:36:05.287233+00:00 [INFO] [vehicle_detection] vehicle exit: car id=7 duration=14194.7s moved=0px
+2026-09-15T11:36:05.289746+00:00 [INFO] [vehicle_detection] vehicle exit: car id=8 duration=14194.7s moved=0px
+2026-09-15T11:36:05.298091+00:00 [INFO] [vehicle_detection] vehicle exit: car id=9 duration=14194.7s moved=0px
+2026-09-15T11:36:05.302015+00:00 [INFO] [vehicle_detection] vehicle exit: car id=10 duration=14194.7s moved=0px
+2026-09-15T11:36:05.304385+00:00 [INFO] [vehicle_detection] vehicle exit: truck id=11 duration=14194.7s moved=0px
+2026-09-15T11:36:05.312695+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 515s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:38:31.065489+00:00 [INFO] [asset_detection] throughput: 1 frames in 355s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:39:58.523367+00:00 [ERROR] [person_detection] process failed: D:\a\_work\1\s\onnxruntime\python\onnxruntime_pybind_mlvalue.cc:615 onnxruntime::python::CreateTensor darray != nullptr was false. The object must be a contiguous array for input 'kv_cache'.
+
+2026-09-15T11:39:58.690011+00:00 [INFO] [person_detection] throughput: 1 frames in 292s = 0.00 fps processed (target 1 fps)
+2026-09-15T11:42:21.248646+00:00 [INFO] [vehicle_detection] vehicle enter: car id=12 at (215,319)
+2026-09-15T11:42:21.335414+00:00 [INFO] [vehicle_detection] vehicle enter: car id=13 at (200,803)
+2026-09-15T11:42:21.352899+00:00 [INFO] [vehicle_detection] vehicle enter: car id=14 at (214,165)
+2026-09-15T11:42:21.360034+00:00 [INFO] [vehicle_detection] vehicle enter: car id=15 at (499,247)
+2026-09-15T11:42:21.365705+00:00 [INFO] [vehicle_detection] vehicle enter: car id=16 at (499,575)
+2026-09-15T11:42:21.374710+00:00 [INFO] [vehicle_detection] vehicle enter: car id=17 at (222,163)
+2026-09-15T11:42:21.378662+00:00 [INFO] [vehicle_detection] vehicle enter: car id=18 at (565,300)
+2026-09-15T11:42:21.385781+00:00 [INFO] [vehicle_detection] vehicle enter: car id=19 at (203,166)
+2026-09-15T11:42:21.396873+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=20 at (200,325)
+2026-09-15T11:42:21.404400+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 376s = 0.00 fps processed (target 1 fps)
+2026-09-15T12:10:00.301408+00:00 [INFO] [asset_detection] throughput: 1 frames in 1889s = 0.00 fps processed (target 1 fps)
+2026-09-15T12:11:10.178553+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T12:11:10.206419+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T12:11:10.206419+00:00 [INFO] [person_detection] throughput: 1 frames in 1872s = 0.00 fps processed (target 1 fps)
+2026-09-15T12:12:15.743431+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1794s = 0.00 fps processed (target 1 fps)
+2026-09-15T12:36:32.238371+00:00 [INFO] [asset_detection] throughput: 1 frames in 1592s = 0.00 fps processed (target 1 fps)
+2026-09-15T12:37:49.759244+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-15T12:37:49.798953+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-15T12:37:49.804782+00:00 [INFO] [person_detection] throughput: 1 frames in 1600s = 0.00 fps processed (target 1 fps)
+2026-09-15T12:39:59.030002+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1663s = 0.00 fps processed (target 1 fps)
+2026-09-15T12:48:55.075281+00:00 [INFO] [asset_detection] throughput: 1 frames in 743s = 0.00 fps processed (target 1 fps)
+2026-09-15T12:50:05.098270+00:00 [INFO] [main] stopping
+2026-09-16T06:25:03.588632+00:00 [INFO] [person_detection] moondream ready (prompt='person')
+2026-09-16T06:25:03.606262+00:00 [INFO] [person_detection] started at 1 fps
+2026-09-16T06:25:03.610567+00:00 [INFO] [vehicle_detection] moondream ready (prompts=['car', 'motorcycle', 'bus', 'truck'], fov=full frame)
+2026-09-16T06:25:03.612567+00:00 [INFO] [vehicle_detection] started at 1 fps
+2026-09-16T06:25:03.614572+00:00 [INFO] [asset_detection] moondream ready (strict incident gate + prompts=['street sign', 'bollard', 'barrier', 'street lamp', 'fire hydrant', 'police vehicle', 'municipal vehicle', 'person'], fov=full frame, confirm_frames=2, min_move_px=40)
+2026-09-16T06:25:03.616575+00:00 [INFO] [asset_detection] started at 1 fps
+2026-09-16T06:25:03.619590+00:00 [INFO] [output] annotated stream: live preview + saving to records\t6_ann.mp4
+2026-09-16T06:25:03.625233+00:00 [INFO] [rtsp] opened t6.mp4
+2026-09-16T06:25:03.625233+00:00 [INFO] [main] started, Ctrl+C to stop
+2026-09-16T06:25:10.591268+00:00 [INFO] [rtsp] throughput: 1 frames read in 22s = 0.04 fps
+2026-09-16T06:25:11.102977+00:00 [INFO] [output] throughput: 1 frames shown in 23s = 0.04 fps
+2026-09-16T06:25:25.623142+00:00 [INFO] [rtsp] throughput: 1061 frames read in 15s = 70.58 fps
+2026-09-16T06:25:26.276519+00:00 [INFO] [output] throughput: 250 frames shown in 15s = 16.48 fps
+2026-09-16T06:25:40.623700+00:00 [INFO] [rtsp] throughput: 981 frames read in 15s = 65.40 fps
+2026-09-16T06:25:40.648828+00:00 [INFO] [rtsp] end of file
+2026-09-16T06:25:41.288538+00:00 [INFO] [output] throughput: 271 frames shown in 15s = 18.05 fps
+2026-09-16T06:27:10.225537+00:00 [INFO] [person_detection] 10 person(s) seen
+2026-09-16T06:27:10.259763+00:00 [WARNING] [person_detection] 10 person(s) detected
+2026-09-16T06:27:10.262811+00:00 [INFO] [person_detection] throughput: 1 frames in 142s = 0.01 fps processed (target 1 fps)
+2026-09-16T06:28:14.304125+00:00 [INFO] [vehicle_detection] vehicle enter: car id=1 at (55,456)
+2026-09-16T06:28:14.312814+00:00 [INFO] [vehicle_detection] vehicle enter: car id=2 at (616,278)
+2026-09-16T06:28:14.317972+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=3 at (55,445)
+2026-09-16T06:28:14.322978+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=4 at (55,444)
+2026-09-16T06:28:14.327641+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 206s = 0.00 fps processed (target 1 fps)
+2026-09-16T06:54:00.164272+00:00 [INFO] [asset_detection] throughput: 1 frames in 1752s = 0.00 fps processed (target 1 fps)
+2026-09-16T06:55:58.930031+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T06:55:58.944019+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T06:55:58.947366+00:00 [INFO] [person_detection] throughput: 1 frames in 1729s = 0.00 fps processed (target 1 fps)
+2026-09-16T06:57:46.940549+00:00 [INFO] [vehicle_detection] vehicle enter: car id=5 at (215,319)
+2026-09-16T06:57:46.947997+00:00 [INFO] [vehicle_detection] vehicle enter: car id=6 at (200,803)
+2026-09-16T06:57:46.954373+00:00 [INFO] [vehicle_detection] vehicle enter: car id=7 at (214,165)
+2026-09-16T06:57:46.960944+00:00 [INFO] [vehicle_detection] vehicle enter: car id=8 at (499,575)
+2026-09-16T06:57:46.967679+00:00 [INFO] [vehicle_detection] vehicle enter: car id=9 at (222,163)
+2026-09-16T06:57:46.973708+00:00 [INFO] [vehicle_detection] vehicle enter: car id=10 at (565,300)
+2026-09-16T06:57:46.981506+00:00 [INFO] [vehicle_detection] vehicle enter: car id=11 at (203,166)
+2026-09-16T06:57:46.990186+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=12 at (200,325)
+2026-09-16T06:57:46.998544+00:00 [INFO] [vehicle_detection] vehicle exit: car id=1 duration=183.6s moved=0px
+2026-09-16T06:57:47.004088+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=3 duration=183.6s moved=0px
+2026-09-16T06:57:47.008358+00:00 [INFO] [vehicle_detection] vehicle exit: truck id=4 duration=183.6s moved=0px
+2026-09-16T06:57:47.013319+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1773s = 0.00 fps processed (target 1 fps)
+2026-09-16T07:22:24.376065+00:00 [INFO] [asset_detection] throughput: 1 frames in 1704s = 0.00 fps processed (target 1 fps)
+2026-09-16T07:23:31.424160+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T07:23:31.426957+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T07:23:31.434174+00:00 [INFO] [person_detection] throughput: 1 frames in 1652s = 0.00 fps processed (target 1 fps)
+2026-09-16T07:24:34.893053+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1608s = 0.00 fps processed (target 1 fps)
+2026-09-16T07:40:29.582595+00:00 [INFO] [asset_detection] throughput: 1 frames in 1085s = 0.00 fps processed (target 1 fps)
+2026-09-16T07:41:36.979111+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T07:41:36.987969+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T07:41:36.988983+00:00 [INFO] [person_detection] throughput: 1 frames in 1086s = 0.00 fps processed (target 1 fps)
+2026-09-16T07:42:40.159132+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1085s = 0.00 fps processed (target 1 fps)
+2026-09-16T08:00:34.623329+00:00 [INFO] [asset_detection] throughput: 1 frames in 1205s = 0.00 fps processed (target 1 fps)
+2026-09-16T08:02:12.693559+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T08:02:12.704228+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T08:02:12.706249+00:00 [INFO] [person_detection] throughput: 1 frames in 1236s = 0.00 fps processed (target 1 fps)
+2026-09-16T08:03:47.109379+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1267s = 0.00 fps processed (target 1 fps)
+2026-09-16T08:23:17.907368+00:00 [INFO] [asset_detection] throughput: 1 frames in 1363s = 0.00 fps processed (target 1 fps)
+2026-09-16T08:24:38.775649+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T08:24:38.813421+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T08:24:38.817110+00:00 [INFO] [person_detection] throughput: 1 frames in 1346s = 0.00 fps processed (target 1 fps)
+2026-09-16T08:25:51.801079+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1325s = 0.00 fps processed (target 1 fps)
+2026-09-16T09:29:52.063709+00:00 [INFO] [asset_detection] throughput: 1 frames in 3994s = 0.00 fps processed (target 1 fps)
+2026-09-16T09:32:22.644686+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T09:32:22.688944+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T09:32:22.694903+00:00 [INFO] [person_detection] throughput: 1 frames in 4064s = 0.00 fps processed (target 1 fps)
+2026-09-16T09:34:54.756586+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 4143s = 0.00 fps processed (target 1 fps)
+2026-09-16T10:08:45.375240+00:00 [INFO] [asset_detection] throughput: 1 frames in 2333s = 0.00 fps processed (target 1 fps)
+2026-09-16T10:09:53.233312+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T10:09:53.260506+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T10:09:53.263788+00:00 [INFO] [person_detection] throughput: 1 frames in 2251s = 0.00 fps processed (target 1 fps)
+2026-09-16T10:11:12.171609+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 2177s = 0.00 fps processed (target 1 fps)
+2026-09-16T10:16:38.749671+00:00 [INFO] [main] stopping
+2026-09-16T11:17:53.670878+00:00 [INFO] [person_detection] moondream ready (prompt='person')
+2026-09-16T11:17:53.678999+00:00 [INFO] [person_detection] started at 1 fps
+2026-09-16T11:17:53.682802+00:00 [INFO] [vehicle_detection] moondream ready (prompts=['car', 'motorcycle', 'bus', 'truck'], fov=full frame)
+2026-09-16T11:17:53.683802+00:00 [INFO] [vehicle_detection] started at 1 fps
+2026-09-16T11:17:53.685811+00:00 [INFO] [asset_detection] moondream ready (strict incident gate + prompts=['street sign', 'bollard', 'barrier', 'street lamp', 'fire hydrant', 'police vehicle', 'municipal vehicle', 'person'], fov=full frame, confirm_frames=2, min_move_px=40)
+2026-09-16T11:17:53.685811+00:00 [INFO] [asset_detection] started at 1 fps
+2026-09-16T11:17:53.688355+00:00 [INFO] [output] annotated stream: live preview + saving to records\t6_ann.mp4
+2026-09-16T11:17:53.697443+00:00 [INFO] [rtsp] opened t6.mp4
+2026-09-16T11:17:53.697443+00:00 [INFO] [main] started, Ctrl+C to stop
+2026-09-16T11:18:01.644599+00:00 [INFO] [rtsp] throughput: 1232 frames read in 15s = 82.11 fps
+2026-09-16T11:18:01.660565+00:00 [INFO] [output] throughput: 282 frames shown in 15s = 18.78 fps
+2026-09-16T11:18:12.978665+00:00 [INFO] [rtsp] end of file
+2026-09-16T11:18:16.670770+00:00 [INFO] [output] throughput: 281 frames shown in 15s = 18.72 fps
+2026-09-16T11:19:15.810789+00:00 [INFO] [vehicle_detection] vehicle enter: car id=1 at (621,284)
+2026-09-16T11:19:15.843913+00:00 [INFO] [vehicle_detection] vehicle enter: car id=2 at (196,324)
+2026-09-16T11:19:15.848895+00:00 [INFO] [vehicle_detection] vehicle enter: car id=3 at (182,798)
+2026-09-16T11:19:15.855051+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=4 at (621,278)
+2026-09-16T11:19:15.865051+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=5 at (621,284)
+2026-09-16T11:19:15.873047+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 89s = 0.01 fps processed (target 1 fps)
+2026-09-16T11:27:17.555180+00:00 [INFO] [asset_detection] asset move: municipal vehicle id=3 +57px
+2026-09-16T11:27:17.633842+00:00 [WARNING] [asset_detection] approved municipal asset movement detected
+2026-09-16T11:27:17.644831+00:00 [WARNING] [asset_detection] approved municipal asset movement detected
+2026-09-16T11:27:17.646945+00:00 [INFO] [asset_detection] throughput: 1 frames in 571s = 0.00 fps processed (target 1 fps)
+2026-09-16T11:33:10.883398+00:00 [INFO] [person_detection] 50 person(s) seen
+2026-09-16T11:33:10.892855+00:00 [WARNING] [person_detection] 50 person(s) detected
+2026-09-16T11:33:10.893906+00:00 [INFO] [person_detection] throughput: 1 frames in 924s = 0.00 fps processed (target 1 fps)
+2026-09-16T11:34:19.450493+00:00 [INFO] [vehicle_detection] vehicle enter: car id=6 at (214,165)
+2026-09-16T11:34:19.462012+00:00 [INFO] [vehicle_detection] vehicle enter: car id=7 at (499,575)
+2026-09-16T11:34:19.469012+00:00 [INFO] [vehicle_detection] vehicle enter: car id=8 at (222,163)
+2026-09-16T11:34:19.473014+00:00 [INFO] [vehicle_detection] vehicle enter: car id=9 at (565,300)
+2026-09-16T11:34:19.477029+00:00 [INFO] [vehicle_detection] vehicle enter: car id=10 at (203,166)
+2026-09-16T11:34:19.481011+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=11 at (200,325)
+2026-09-16T11:34:19.489025+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=4 duration=81.2s moved=0px
+2026-09-16T11:34:19.492017+00:00 [INFO] [vehicle_detection] vehicle exit: truck id=5 duration=81.2s moved=0px
+2026-09-16T11:34:19.496136+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 904s = 0.00 fps processed (target 1 fps)
+2026-09-16T12:00:06.265929+00:00 [INFO] [main] stopping
+2026-09-16T17:31:59.743721+00:00 [INFO] [person_detection] moondream ready (prompt='person')
+2026-09-16T17:31:59.799227+00:00 [INFO] [person_detection] started at 1 fps
+2026-09-16T17:31:59.801235+00:00 [INFO] [vehicle_detection] moondream ready (prompts=['car', 'motorcycle', 'bus', 'truck'], fov=full frame)
+2026-09-16T17:31:59.805148+00:00 [INFO] [vehicle_detection] started at 1 fps
+2026-09-16T17:31:59.807183+00:00 [INFO] [asset_detection] moondream ready (strict incident gate + prompts=['street sign', 'bollard', 'barrier', 'street lamp', 'fire hydrant', 'police vehicle', 'municipal vehicle', 'person'], fov=full frame, confirm_frames=2, min_move_px=40)
+2026-09-16T17:31:59.809193+00:00 [INFO] [asset_detection] started at 1 fps
+2026-09-16T17:31:59.809980+00:00 [INFO] [output] annotated stream: live preview + saving to records\t6_ann.mp4
+2026-09-16T17:31:59.814106+00:00 [INFO] [rtsp] opened t6.mp4
+2026-09-16T17:31:59.814636+00:00 [INFO] [main] started, Ctrl+C to stop
+2026-09-16T17:32:04.995215+00:00 [INFO] [rtsp] throughput: 794 frames read in 15s = 52.93 fps
+2026-09-16T17:32:04.999253+00:00 [INFO] [output] throughput: 192 frames shown in 15s = 12.80 fps
+2026-09-16T17:32:12.954657+00:00 [INFO] [rtsp] end of file
+2026-09-16T17:39:12.611445+00:00 [INFO] [asset_detection] asset move: municipal vehicle id=3 +111px
+2026-09-16T17:39:12.674050+00:00 [WARNING] [asset_detection] approved municipal asset movement detected
+2026-09-16T17:39:12.694118+00:00 [WARNING] [asset_detection] approved municipal asset movement detected
+2026-09-16T17:39:12.697015+00:00 [INFO] [asset_detection] throughput: 1 frames in 443s = 0.00 fps processed (target 1 fps)
+2026-09-16T17:43:00.748768+00:00 [INFO] [person_detection] 50 person(s) seen
+2026-09-16T17:43:00.763356+00:00 [WARNING] [person_detection] 50 person(s) detected
+2026-09-16T17:43:00.765364+00:00 [INFO] [person_detection] throughput: 1 frames in 671s = 0.00 fps processed (target 1 fps)
+2026-09-16T17:44:36.158673+00:00 [INFO] [vehicle_detection] vehicle enter: car id=1 at (621,284)
+2026-09-16T17:44:36.165988+00:00 [INFO] [vehicle_detection] vehicle enter: car id=2 at (621,934)
+2026-09-16T17:44:36.165988+00:00 [INFO] [vehicle_detection] vehicle enter: car id=3 at (200,333)
+2026-09-16T17:44:36.176310+00:00 [INFO] [vehicle_detection] vehicle enter: car id=4 at (181,798)
+2026-09-16T17:44:36.178897+00:00 [INFO] [vehicle_detection] vehicle enter: car id=5 at (182,338)
+2026-09-16T17:44:36.182464+00:00 [INFO] [vehicle_detection] vehicle enter: car id=6 at (182,189)
+2026-09-16T17:44:36.182464+00:00 [INFO] [vehicle_detection] vehicle enter: car id=7 at (182,178)
+2026-09-16T17:44:36.188634+00:00 [INFO] [vehicle_detection] vehicle enter: car id=8 at (182,798)
+2026-09-16T17:44:36.191436+00:00 [INFO] [vehicle_detection] vehicle enter: car id=9 at (105,798)
+2026-09-16T17:44:36.197602+00:00 [INFO] [vehicle_detection] vehicle enter: car id=10 at (99,798)
+2026-09-16T17:44:36.200865+00:00 [INFO] [vehicle_detection] vehicle enter: car id=11 at (181,178)
+2026-09-16T17:44:36.206482+00:00 [INFO] [vehicle_detection] vehicle enter: car id=12 at (200,798)
+2026-09-16T17:44:36.213711+00:00 [INFO] [vehicle_detection] vehicle enter: car id=13 at (200,798)
+2026-09-16T17:44:36.218091+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=14 at (618,278)
+2026-09-16T17:44:36.221935+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=15 at (618,284)
+2026-09-16T17:44:36.226950+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 766s = 0.00 fps processed (target 1 fps)
+2026-09-16T17:46:05.156367+00:00 [INFO] [main] stopping
+2026-09-16T17:46:11.312393+00:00 [INFO] [output] closed records\t6_ann.mp4 (644 frames)
+2026-09-16T17:46:23.584525+00:00 [INFO] [person_detection] moondream ready (prompt='person')
+2026-09-16T17:46:23.627157+00:00 [INFO] [person_detection] started at 1 fps
+2026-09-16T17:46:23.627157+00:00 [INFO] [vehicle_detection] moondream ready (prompts=['car', 'motorcycle', 'bus', 'truck'], fov=full frame)
+2026-09-16T17:46:23.629163+00:00 [INFO] [vehicle_detection] started at 1 fps
+2026-09-16T17:46:23.629163+00:00 [INFO] [asset_detection] moondream ready (strict incident gate + prompts=['street sign', 'bollard', 'barrier', 'street lamp', 'fire hydrant', 'police vehicle', 'municipal vehicle', 'person'], fov=full frame, confirm_frames=2, min_move_px=40)
+2026-09-16T17:46:23.631167+00:00 [INFO] [asset_detection] started at 1 fps
+2026-09-16T17:46:23.631167+00:00 [INFO] [output] annotated stream: live preview + saving to records\t6_ann.mp4
+2026-09-16T17:46:23.634623+00:00 [INFO] [rtsp] opened t6.mp4
+2026-09-16T17:46:23.634623+00:00 [INFO] [main] started, Ctrl+C to stop
+2026-09-16T17:46:29.712888+00:00 [INFO] [output] throughput: 246 frames shown in 15s = 16.40 fps
+2026-09-16T17:46:29.714909+00:00 [INFO] [rtsp] throughput: 1139 frames read in 15s = 75.91 fps
+2026-09-16T17:46:35.693444+00:00 [INFO] [rtsp] end of file
+2026-09-16T17:47:07.685792+00:00 [INFO] [vehicle_detection] vehicle enter: car id=1 at (621,284)
+2026-09-16T17:47:07.691570+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=2 at (134,803)
+2026-09-16T17:47:07.695592+00:00 [INFO] [vehicle_detection] vehicle enter: bus id=3 at (622,284)
+2026-09-16T17:47:07.699481+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=4 at (95,803)
+2026-09-16T17:47:07.703081+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 53s = 0.02 fps processed (target 1 fps)
+2026-09-16T17:48:03.316912+00:00 [INFO] [person_detection] 9 person(s) seen
+2026-09-16T17:48:03.322477+00:00 [WARNING] [person_detection] 9 person(s) detected
+2026-09-16T17:48:03.322477+00:00 [INFO] [person_detection] throughput: 1 frames in 109s = 0.01 fps processed (target 1 fps)
+2026-09-16T17:52:26.835737+00:00 [INFO] [asset_detection] throughput: 1 frames in 372s = 0.00 fps processed (target 1 fps)
+2026-09-16T17:53:33.537095+00:00 [INFO] [vehicle_detection] vehicle enter: car id=5 at (215,319)
+2026-09-16T17:53:33.542877+00:00 [INFO] [vehicle_detection] vehicle enter: car id=6 at (200,803)
+2026-09-16T17:53:33.544886+00:00 [INFO] [vehicle_detection] vehicle enter: car id=7 at (214,165)
+2026-09-16T17:53:33.550251+00:00 [INFO] [vehicle_detection] vehicle enter: car id=8 at (499,575)
+2026-09-16T17:53:33.553914+00:00 [INFO] [vehicle_detection] vehicle enter: car id=9 at (222,163)
+2026-09-16T17:53:33.556640+00:00 [INFO] [vehicle_detection] vehicle enter: car id=10 at (565,300)
+2026-09-16T17:53:33.560857+00:00 [INFO] [vehicle_detection] vehicle enter: car id=11 at (203,166)
+2026-09-16T17:53:33.564893+00:00 [INFO] [vehicle_detection] vehicle enter: truck id=12 at (200,325)
+2026-09-16T17:53:33.568936+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=2 duration=43.1s moved=0px
+2026-09-16T17:53:33.573127+00:00 [INFO] [vehicle_detection] vehicle exit: bus id=3 duration=43.1s moved=0px
+2026-09-16T17:53:33.577161+00:00 [INFO] [vehicle_detection] vehicle exit: truck id=4 duration=43.1s moved=0px
+2026-09-16T17:53:33.578927+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 386s = 0.00 fps processed (target 1 fps)
+2026-09-16T17:54:36.527211+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T17:54:36.535326+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T17:54:36.535326+00:00 [INFO] [person_detection] throughput: 1 frames in 393s = 0.00 fps processed (target 1 fps)
+2026-09-16T18:08:33.168560+00:00 [INFO] [asset_detection] asset move: bollard id=1 +48px
+2026-09-16T18:08:33.174487+00:00 [INFO] [asset_detection] asset move: municipal vehicle id=5 +41px
+2026-09-16T18:08:33.182811+00:00 [WARNING] [asset_detection] approved municipal asset movement detected
+2026-09-16T18:08:33.201323+00:00 [WARNING] [asset_detection] approved municipal asset movement detected
+2026-09-16T18:08:33.203334+00:00 [INFO] [asset_detection] throughput: 1 frames in 966s = 0.00 fps processed (target 1 fps)
+2026-09-16T18:09:53.447701+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 980s = 0.00 fps processed (target 1 fps)
+2026-09-16T18:11:24.734854+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T18:11:24.773074+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T18:11:24.784823+00:00 [INFO] [person_detection] throughput: 1 frames in 1008s = 0.00 fps processed (target 1 fps)
+2026-09-16T18:29:25.801336+00:00 [INFO] [asset_detection] throughput: 1 frames in 1253s = 0.00 fps processed (target 1 fps)
+2026-09-16T18:30:53.541638+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1260s = 0.00 fps processed (target 1 fps)
+2026-09-16T18:32:30.441617+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T18:32:30.485996+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T18:32:30.496846+00:00 [INFO] [person_detection] throughput: 1 frames in 1266s = 0.00 fps processed (target 1 fps)
+2026-09-16T18:50:44.377440+00:00 [INFO] [asset_detection] throughput: 1 frames in 1279s = 0.00 fps processed (target 1 fps)
+2026-09-16T18:51:46.221237+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1253s = 0.00 fps processed (target 1 fps)
+2026-09-16T18:52:48.766682+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T18:52:48.776764+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T18:52:48.778768+00:00 [INFO] [person_detection] throughput: 1 frames in 1218s = 0.00 fps processed (target 1 fps)
+2026-09-16T19:06:51.139905+00:00 [INFO] [asset_detection] throughput: 1 frames in 967s = 0.00 fps processed (target 1 fps)
+2026-09-16T19:08:23.397809+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 997s = 0.00 fps processed (target 1 fps)
+2026-09-16T19:10:23.037582+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T19:10:23.046803+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T19:10:23.047807+00:00 [INFO] [person_detection] throughput: 1 frames in 1054s = 0.00 fps processed (target 1 fps)
+2026-09-16T19:33:55.650246+00:00 [INFO] [asset_detection] throughput: 1 frames in 1625s = 0.00 fps processed (target 1 fps)
+2026-09-16T19:35:46.419236+00:00 [INFO] [vehicle_detection] throughput: 1 frames in 1643s = 0.00 fps processed (target 1 fps)
+2026-09-16T19:38:15.533324+00:00 [INFO] [person_detection] 11 person(s) seen
+2026-09-16T19:38:15.544307+00:00 [WARNING] [person_detection] 11 person(s) detected
+2026-09-16T19:38:15.544307+00:00 [INFO] [person_detection] throughput: 1 frames in 1672s = 0.00 fps processed (target 1 fps)
+2026-09-16T19:51:11.695138+00:00 [INFO] [main] stopping
+2026-09-16T19:51:17.950525+00:00 [INFO] [output] closed records\t6_ann.mp4 (572 frames)

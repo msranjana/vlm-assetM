@@ -4,8 +4,13 @@ import threading
 import cv2
 from PIL import Image
 
-MODEL_ENV = "MOONDREAM_MODEL_PATH"
-DEFAULT_MODEL = os.path.join("models", "moondream-0_5b-int4.mf.gz")
+from config.env import load_project_env
+
+MODEL_ID_ENV = "MOONDREAM_MODEL_ID"
+DEFAULT_MODEL_ID = "vikhyatk/moondream2"
+REVISION_ENV = "MOONDREAM_HF_REVISION"
+DEVICE_MAP_ENV = "MOONDREAM_DEVICE_MAP"
+DEFAULT_DEVICE_MAP = "auto"
 
 # RLock: inference helpers hold the lock and call get_model() (same thread).
 _lock = threading.RLock()
@@ -13,20 +18,39 @@ _model = None
 
 
 def get_model():
-    """Load the local Moondream model once (~30s on CPU), share everywhere."""
+    """Load Moondream 2 (2B) from Hugging Face once, share everywhere."""
     global _model
     with _lock:
         if _model is None:
-            import moondream
+            from transformers import AutoModelForCausalLM
 
-            path = os.getenv(MODEL_ENV, DEFAULT_MODEL)
-            if not os.path.isfile(path):
-                raise FileNotFoundError(
-                    f"Moondream model missing: {path}. "
-                    f"Set {MODEL_ENV} or place the .mf.gz file there."
+            load_project_env()
+            legacy_path = os.getenv("MOONDREAM_MODEL_PATH", "").strip()
+            if legacy_path:
+                raise RuntimeError(
+                    "MOONDREAM_MODEL_PATH is obsolete (0.5B local file). "
+                    "Remove it from .env and set MOONDREAM_MODEL_ID=vikhyatk/moondream2, "
+                    "MOONDREAM_DEVICE_MAP=auto, and optionally MOONDREAM_HF_REVISION."
                 )
-            _model = moondream.vl(model=path)
+            model_id = os.getenv(MODEL_ID_ENV, DEFAULT_MODEL_ID)
+            device_map = os.getenv(DEVICE_MAP_ENV, DEFAULT_DEVICE_MAP)
+            revision = os.getenv(REVISION_ENV, "").strip()
+            kwargs = {
+                "trust_remote_code": True,
+                "device_map": device_map,
+            }
+            if revision:
+                kwargs["revision"] = revision
+            _model = AutoModelForCausalLM.from_pretrained(model_id, **kwargs)
         return _model
+
+
+def _detect(model, image, prompt):
+    return model.detect(image, object=prompt)
+
+
+def _query(model, image, question):
+    return model.query(image, question)
 
 
 def detect_frame(bgr_frame, prompt):
@@ -38,13 +62,11 @@ def detect_frame(bgr_frame, prompt):
     pil = Image.fromarray(cv2.cvtColor(bgr_frame, cv2.COLOR_BGR2RGB))
     with _lock:
         model = get_model()
-        # Encode once per frame; detect() reuses it instead of re-running
-        # the vision encoder for every prompt.
         try:
             encoded = model.encode_image(pil)
-            res = model.detect(encoded, prompt)
+            res = _detect(model, encoded, prompt)
         except Exception:
-            res = model.detect(pil, prompt)
+            res = _detect(model, pil, prompt)
     boxes = []
     for obj in res.get("objects", []):
         boxes.append((
@@ -69,7 +91,7 @@ def detect_multi(bgr_frame, prompts):
             encoded = pil
         for prompt in prompts:
             try:
-                res = model.detect(encoded, prompt)
+                res = _detect(model, encoded, prompt)
             except Exception:
                 res = {"objects": []}
             out[prompt] = [(
@@ -94,9 +116,9 @@ def query_frame(bgr_frame, question):
         model = get_model()
         try:
             encoded = model.encode_image(pil)
-            res = model.query(encoded, question)
+            res = _query(model, encoded, question)
         except Exception:
-            res = model.query(pil, question)
+            res = _query(model, pil, question)
     return _normalize_answer(res.get("answer", ""))
 
 
@@ -111,13 +133,15 @@ def query_and_detect_multi(bgr_frame, question, prompts):
         except Exception:
             encoded = pil
         try:
-            answer = _normalize_answer(model.query(encoded, question).get("answer", ""))
+            answer = _normalize_answer(
+                _query(model, encoded, question).get("answer", "")
+            )
         except Exception:
             answer = ""
         out = {}
         for prompt in prompts:
             try:
-                res = model.detect(encoded, prompt)
+                res = _detect(model, encoded, prompt)
             except Exception:
                 res = {"objects": []}
             out[prompt] = [(
